@@ -25,7 +25,7 @@ class PegawaiController extends Controller
                         })
                         ->rawColumns(['action'])
                         ->addIndexColumn()
-                        ->make(true);
+                        ->make(true);   
         }
 
         return view('pegawai');
